@@ -1,6 +1,6 @@
 #SingleInstance Force
 Process, Priority,, B
-GroupAdd, supportedGames, "NAME"
+GroupAdd, supportedGames, NAME
 
 Loop {
   WinWait, ahk_group supportedGames
